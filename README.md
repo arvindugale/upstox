@@ -10,7 +10,7 @@ Angular provides the frontend and accesses the Socket API to fetch historical da
 
 ## Installation
 
-1. Clone the repository: `git clone git@github.com:scotch-io/node-todo`
+1. Clone the repository: `git clone https://github.com/arvindugale/upstox.git`
 2. Install the application: `npm install`
 2. Install dependencies using: `bower install`
 3. Start the server: `node server.js`
