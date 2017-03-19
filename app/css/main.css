@@ -1,0 +1,66 @@
+ body {
+     font: 10px sans-serif;
+ }
+ 
+ svg {
+     margin-top: 50px;
+ }
+ 
+ g.nv-controlsWrap.nvd3-svg {
+     display: none;
+ }
+ 
+ .axis path,
+ .axis line {
+     fill: none;
+     stroke: #000;
+     shape-rendering: crispEdges;
+ }
+ 
+ .area {
+     fill: steelblue;
+ }
+ 
+ #stock-bar {
+     position: absolute;
+     top: 20px;
+     z-index: 10;
+     font-size: 30px;
+ }
+ 
+ #price {
+     margin: 0 0 0 125px;
+     display: inline-block;
+ }
+ 
+ #stock {
+     display: inline-block;
+ }
+ 
+ .nav > li > a {
+     position: relative;
+     display: block;
+     padding: 10px 13px !important;
+ }
+ 
+ .nav-tabs > li.active > a,
+ .nav-tabs > li.active > a:hover,
+ .nav-tabs > li.active > a:focus {
+     background-color: #d2f9ff !important;
+ }
+ 
+ .tab-pane.ng-scope > .row:first-child {
+     margin-top: 15px;
+ }
+ 
+ hr {
+     margin: 10px 0 !important;
+ }
+ 
+ button {
+     width: 100% !important;
+     padding: 5px 0;
+     background-color: #3dcde3 !important;
+     border-color: #4ea4b2 !important;
+     color: white !important;
+ }
